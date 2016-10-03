@@ -1,0 +1,223 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+footer {
+	clear: both;
+	margin-bottom: 20px;
+	/*background-color: #2E2E2E;*/
+	background-color: #060808;
+	height: 100px;
+	color: #FFF;
+	font-size: 16px;
+	padding-top: 50px;
+	margin-bottom: unset;
+}
+
+footer #copyright {
+	display: inline-block;
+}
+
+ul#socialMedia li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+
+/*    Nav bar    */
+nav ul li {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+/*     Home      */
+#home {
+	background: url('../images/code_back2.jpg');
+/*	background-color: #222222;*/
+/*	margin-top: 50px;*/
+	color: #FFF;
+	height: 800px;
+	filter: blur(2px);
+	-webkit-filter: blur(2px);
+	background-size: cover;
+	z-index: 1;
+}
+
+header {
+	z-index: 2;
+	position: absolute;
+	top: 2px;
+	color: #FFF;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 200px;
+
+}
+
+header > div#headerContent > hr {
+	width: 5%;
+}
+
+div#headerContent {
+/*	width: 50%;*/
+	background: rgba(255, 255, 255, 0.35);
+	border: 1px solid #FFF;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 3px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 0 50px 50px 50px;
+}
+
+h1#header {
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+
+
+/*  About  */
+
+#autobioWrapper {
+}
+
+#autobio {
+	/*margin-top: 100px;*/
+/*	float: left;*/
+	background-color: #E66D90;
+	color: #FFF;
+	height: 500px;
+}
+
+#aboutImg {
+	float: left;
+	margin-left: 25px;
+}
+
+a[href$=".pdf"] {
+	color: silver;
+}
+a[href$=".pdf"]:hover {
+	text-decoration: none;
+	color: silver;
+}
+
+#resumeLink {
+	border: 1px solid silver;
+	margin-top: 5px;
+}
+
+#resumeLink a {
+	color: silver;
+	font-size: 16px;
+}
+
+#about {
+/*	float: right;*/
+	max-width: 500px;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	margin: 0 50px 50px 10px;
+	float: left;
+	padding-top: 10px;
+}
+
+
+/*   Portfolio  */
+#portfolio {
+/*	height: 500px;*/
+	background-color: #EEEEEE;
+	height: 100%;
+}
+
+
+/*   Contact   */
+#contact {
+	background-color: #ffff99;
+	height: 600px;
+}
+
+form {
+	margin: auto;
+	width: 50%;
+}
+
+.formElement {
+ 	/*border: 1px solid #FF0000;*/
+}
+
+.formElement:hover {
+	cursor: text;
+}
+
+.formElement input {
+	width: 100%;
+	box-sizing: content-box;
+}
+
+.formElement input:focus {
+	outline: none;
+}
+
+.formElement input::-moz-focus-inner {
+	border: none;
+}
+
+label {
+	margin-bottom: unset;
+	color: #565656;
+}
+
+p.frmLbl {
+	margin-bottom: unset;
+}
+
+.contactForm {
+
+}
+
+#contact button {
+	color: #FFF;
+}
+
+input[type=text] {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #565656;
+	background-color: transparent;
+	height: 0;
+	margin-top: 2px;
+	padding: 0;
+}
+
+
+/*   Overridden Styles */
+h2 {
+	margin-top: unset;
+	padding-top: 25px;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.btn-default {
+	background-image: unset;
+	background-color: #7b7b7b;
+}
+
+.btn-default:hover {
+	/*background-color: #000;*/
+	background-color: #635b5b;
+
+}
+
+ 
+
