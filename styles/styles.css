@@ -167,6 +167,10 @@ form {
 	border: none;
 }
 
+.formElement textarea:focus {
+	outline: none;
+}
+
 label {
 	margin-bottom: unset;
 	color: #565656;
@@ -176,15 +180,12 @@ p.frmLbl {
 	margin-bottom: unset;
 }
 
-.contactForm {
-
-}
 
 #contact button {
 	color: #FFF;
 }
 
-input[type=text] {
+input[type=text], textarea {
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -195,6 +196,11 @@ input[type=text] {
 	padding: 0;
 }
 
+textarea {
+	width: 100%;
+	resize: none;
+	overflow: hidden;
+}
 
 /*   Overridden Styles */
 h2 {

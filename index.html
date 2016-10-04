@@ -179,25 +179,30 @@
 				<form>
 					<div id="fnameDiv" class="formElement" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)">
 						<p class="frmLbl"><label for="fname">First Name </label></p>
-						<p><input type="text" name="fname" id="fname" class="contactForm"></p>
+						<p><input type="text" name="fname" id="fname" class=""></p>
 					</div>
 
 					<div id="lnameDiv" class="formElement" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)">
 						<p class="frmLbl"><label for="lname">Last Name </label></p>
-						<p><input type="text" name="lname" id="lname" class="contactForm"></p>
+						<p><input type="text" name="lname" id="lname" class=""></p>
 					</div>
 
 					<div id="emailDiv" class="formElement" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)">
 						<p class="frmLbl"><label for="email">Email </label></p>
-						<p><input type="text" name="email" id="email" class="contactForm"></p>
+						<p><input type="text" name="email" id="email" class=""></p>
 					</div>
 
 					<div id="phoneDiv" class="formElement" onfocus="focusFunc(this.id)" onclick="focusFunc(this.id)" onfocusout="focusOut(this.id)">
 						<p class="frmLbl"><label for="phone">Phone Number </label></p>
-						<p><input type="text" name="phone" id="phone" class="contactForm"></p>
+						<p><input type="text" name="phone" id="phone" class=""></p>
 					</div>
 
-					<p class="text-center"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-ok"></span> Submit</button></p>
+					<div id="commentDiv" class="formElement" onfocus="commentFocus(this.id)" onclick="commentFocus(this.id)" onfocusout="commentFocusOut(this.id)">
+						<p class="frmLbl"><label for="comments">Comments</label></p>
+						<p><textarea data-role="none" id="comments"></textarea></p>
+					</div>
+
+					<p class="text-center"><button class="btn btn-default" type="submit" onclick="sendForm()"><span class="glyphicon glyphicon-ok"></span> Submit</button></p>
 				</form>
 			</section>	
 
